@@ -5,34 +5,38 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   background-color: #f8f9fb;
   color: #333;
   line-height: 1.6;
 }
 
 .hero {
-  background: #1f2933;
+  background: linear-gradient(135deg, #1f2933, #111827);
   color: #ffffff;
   text-align: center;
-  padding: 60px 20px;
+  padding: 80px 20px;
 }
 
+
+
 .hero h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  font-weight: 700;
 }
 
 .subtitle {
-  font-size: 1.2rem;
-  margin-top: 10px;
-  color: #cbd5e1;
+  font-size: 1.3rem;
+  margin-top: 12px;
+  color: #e5e7eb;
 }
 
 .tagline {
-  margin-top: 15px;
+  margin-top: 18px;
   font-size: 1rem;
   color: #9ca3af;
 }
+
 
 .section {
   max-width: 900px;
