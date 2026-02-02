@@ -39,10 +39,11 @@ body {
 
 
 .section {
-  max-width: 900px;
-  margin: 50px auto;
+  max-width: 960px;
+  margin: 70px auto;
   padding: 0 20px;
 }
+
 
 .section h2 {
   margin-bottom: 20px;
@@ -51,10 +52,16 @@ body {
 
 .project-card {
   background: #ffffff;
-  padding: 20px;
-  border-radius: 8px;
-  margin-bottom: 25px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
 }
 
 .project-card h3 {
@@ -76,27 +83,36 @@ body {
 }
 
 .skills span {
-  background: #e5e7eb;
-  padding: 8px 12px;
-  border-radius: 20px;
+  background: linear-gradient(135deg, #e5e7eb, #f3f4f6);
+  padding: 8px 14px;
+  border-radius: 999px;
   font-size: 0.9rem;
+  font-weight: 500;
 }
+
 
 .link {
   display: inline-block;
-  margin-top: 10px;
-  color: #2563eb;
+  margin-top: 15px;
+  padding: 10px 16px;
+  background-color: #2563eb;
+  color: #ffffff;
+  border-radius: 6px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
 }
 
 .link:hover {
-  text-decoration: underline;
+  background-color: #1e40af;
 }
+
 
 .footer {
   text-align: center;
-  padding: 30px;
+  padding: 40px 20px;
   font-size: 0.9rem;
-  color: #6b7280;
+  color: #9ca3af;
+  background-color: #f1f5f9;
 }
+
